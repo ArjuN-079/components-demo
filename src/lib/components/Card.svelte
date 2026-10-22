@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     import Picture from "./card-internals/Picture.svelte";
    // import Details from "./card-internals/Details.svelte";
     let {bananas} = $props();
@@ -19,5 +19,21 @@
         padding: 1rem;
         max-width: 600px;
         margin: 1rem;
+    }
+</style> -->
+
+<script> 
+import profileDetails from "./profile-components/profileDetails.svelte";
+import profilePic from "./profile-components/profilePic.svelte";
+</script>
+
+<article>
+    <profilePic/>
+    <profileDetails/>
+</article>
+
+<style>
+    article{
+        border: 1px solid grey;
     }
 </style>

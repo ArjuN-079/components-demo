@@ -6,8 +6,8 @@
     let lastName =  $state();
     let fullName = $derived(firstName + "" + lastName)
 
-    firstName = "web"
-    lastName = "one"
+    firstName = "web";
+    lastName = "two";
 </script>
 
 <Header/>
